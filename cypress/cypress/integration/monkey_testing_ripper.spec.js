@@ -3,8 +3,8 @@ describe('Los estudiantes under monkeys', function() {
         cy.visit('https://losestudiantes.co');
         cy.contains('Cerrar').click();
         cy.wait(1000);
-        //randomEvent(10);
-        randomClick(10);
+        randomEvent(10);
+        //randomClick(10);
     })
 })
 function randomClick(monkeysLeft) {
@@ -28,7 +28,7 @@ function randomClick(monkeysLeft) {
         })
     }
 }
-/*
+
 function randomEvent(monkeysLeft) {
 
     function getRandomInt(min, max) {
@@ -90,4 +90,3 @@ function randomEvent(monkeysLeft) {
         }
     }
 }
-*/
